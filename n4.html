@@ -7,7 +7,7 @@
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Sổ tay ôn tập N4</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Shippori+Mincho:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Shippori+Mincho:wght@600;800&family=BIZ+UDPMincho:wght@400;700&display=swap">
 <style>
 :root{
   --bg:#F5F6F8; --surface:#FFFFFF; --ink:#1B2230; --muted:#5E6878; --line:#DDE2EA; --soft:#EDF0F5;
@@ -15,7 +15,7 @@
   --ok:#23735F; --okbg:#DDF0EA; --bad:#A8432A; --badbg:#F7E4DE;
   --warn:#8A5A00; --warnbg:#FFF2D6;
   --g1:#2B4C7E; --g1bg:#E3EAF5; --g2:#23735F; --g2bg:#DDF0EA; --g3:#A8432A; --g3bg:#F7E4DE;
-  --jp:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",sans-serif;
+  --jp:"BIZ UDPMincho","Yu Mincho","YuMincho","Hiragino Mincho ProN","MS PMincho","Noto Serif JP","Noto Serif CJK JP",serif;
   --vi:"Be Vietnam Pro",system-ui,sans-serif;
   --disp:"Shippori Mincho","Hiragino Mincho ProN",serif;
 }
@@ -84,9 +84,9 @@ section.block>h3::after{content:"";flex:1;height:1px;background:var(--line)}
 .gp .notes{font-size:14px;color:var(--muted)}
 .ex{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
 .ex li{display:flex;flex-direction:column;gap:1px;padding-left:12px;border-left:2px solid var(--line)}
-.ex .ja{font:17px/2 var(--jp)}
+.ex .ja{font:18px/2.05 var(--jp)}
 .ex .vi{font-size:14px;color:var(--muted)}
-ruby rt{font-size:.55em;color:var(--muted);font-family:var(--jp)}
+ruby rt{font-size:.6em;color:var(--muted);font-family:var(--jp)}
 .nofuri ruby rt{visibility:hidden}
 
 .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px}
@@ -136,7 +136,7 @@ ruby rt{font-size:.55em;color:var(--muted);font-family:var(--jp)}
 .quiz{display:flex;flex-direction:column;gap:12px}
 .qi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .qi .qn{font-size:12px;font-weight:600;color:var(--muted)}
-.qi .q{font:17px/2 var(--jp)}
+.qi .q{font:18px/2.05 var(--jp)}
 .opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
 .opts button{font:16px var(--jp);text-align:left;padding:9px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
 .opts button:hover:not(:disabled){border-color:var(--accent)}
